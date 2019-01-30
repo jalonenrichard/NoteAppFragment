@@ -2363,8 +2363,8 @@ namespace NoteAppFragments
 			// aapt resource value: 0x7F0C0011
 			public const int action_mode_close_button = 2131492881;
 			
-			// aapt resource value: 0x7F010004
-			public const int action_settings = 2130771972;
+			// aapt resource value: 0x7F010008
+			public const int action_settings = 2130771976;
 			
 			// aapt resource value: 0x7F0C0004
 			public const int action_text = 2131492868;
@@ -2389,6 +2389,12 @@ namespace NoteAppFragments
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
+			
+			// aapt resource value: 0x7F010003
+			public const int buttonNewNote = 2130771971;
+			
+			// aapt resource value: 0x7F010007
+			public const int buttonNoteSave = 2130771975;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2441,6 +2447,12 @@ namespace NoteAppFragments
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
+			// aapt resource value: 0x7F010005
+			public const int editTextNoteContentAdd = 2130771973;
+			
+			// aapt resource value: 0x7F010004
+			public const int editTextNoteHeaderAdd = 2130771972;
+			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
 			
@@ -2455,9 +2467,6 @@ namespace NoteAppFragments
 			
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
-			
-			// aapt resource value: 0x7F010003
-			public const int fab = 2130771971;
 			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
@@ -2503,6 +2512,9 @@ namespace NoteAppFragments
 			
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
+			
+			// aapt resource value: 0x7F010006
+			public const int linearLayout1 = 2130771974;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
@@ -2705,11 +2717,11 @@ namespace NoteAppFragments
 			// aapt resource value: 0x7F0C0082
 			public const int titleDividerNoCustom = 2131492994;
 			
+			// aapt resource value: 0x7F010002
+			public const int titles = 2130771970;
+			
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
-			
-			// aapt resource value: 0x7F010002
-			public const int toolbar = 2130771970;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -2931,6 +2943,9 @@ namespace NoteAppFragments
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
+			
+			// aapt resource value: 0x7F020004
+			public const int noteadd_layout = 2130837508;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
