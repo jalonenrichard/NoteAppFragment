@@ -11,6 +11,11 @@ namespace NoteAppFragments.Activities
         {
             base.OnCreate(savedInstanceState);
 
+            if (Resources.Configuration.Orientation == Android.Content.Res.Orientation.Landscape)
+            {
+                Finish();
+            }
+
             var noteContent = Intent.Extras.GetString("note_content");
 
             var detailsFrag = NoteContentFragment.NewInstance(noteContent);

@@ -1,7 +1,8 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using NoteAppFragments.Models;
 using NoteAppFragments.Repositories;
-using SQLite;
 using Environment = System.Environment;
 
 namespace NoteAppFragments.Services
@@ -23,9 +24,11 @@ namespace NoteAppFragments.Services
             _noteDao.CreateNewNoteTable();
         }
 
-        public TableQuery<Note> GetAllNotes()
+        public List<Note> GetAllNotes()
         {
-            return _noteDao.GetAllNotesFromDatabase();
+            List<Note> allNotes = _noteDao.GetAllNotesFromDatabase().ToList();
+            List<Note> sortedList = allNotes.OrderByDescending(o => o.CreatedDateTime).ToList();
+            return sortedList;
         }
 
         public void SaveNote(Note note)

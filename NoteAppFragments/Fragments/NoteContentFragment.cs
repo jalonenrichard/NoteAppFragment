@@ -29,7 +29,7 @@ namespace NoteAppFragments.Fragments
             var padding =
                 Convert.ToInt32(TypedValue.ApplyDimension(ComplexUnitType.Dip, 4, Activity.Resources.DisplayMetrics));
             textView.SetPadding(25, 25, padding, padding);
-            textView.TextSize = 24;
+            textView.TextSize = 20;
             textView.Text = NoteContent;
 
             var scroller = new ScrollView(Activity);

@@ -21,15 +21,16 @@
 		android:id="@+id/buttonNewNote"
 		android:layout_width="60dp"
 		android:layout_height="60dp"
-    
+		android:background="@drawable/roundbutton"
 		android:gravity="center_vertical"
 		android:text="+"
 		android:textAlignment="center"
 		android:textSize="40dp"
 		android:fontFamily="sans-serif-thin"
-  
+		android:textColor="@color/colorAddButton"
 		android:layout_alignParentEnd="true"
 		android:layout_alignParentBottom="true"
 		android:layout_margin="30dp" />
+
 
 </RelativeLayout>
